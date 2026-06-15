@@ -1,0 +1,10 @@
+#header {
+  background-color: aqua;
+  height: 190px;
+  width: auto;
+  display: grid;
+  grid-template-rows: 50px 70px 50px;
+  margin: 0 auto;
+  margin-top: 15px;
+  cursor: default;
+}
