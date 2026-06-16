@@ -76,6 +76,12 @@ h2 {
   cursor: pointer;
 }
 
+#sociais img:hover {
+  height: 1.2rem;
+  opacity: .5;
+  transition: .2s;
+}
+
 #curriculo {
   height: fit-content;
   width: fit-content;
@@ -100,4 +106,17 @@ h2 {
   font-size: .9rem;
   font-weight: lighter;
   margin: 3px 5px 3px 0;
+}
+
+#curriculo:hover {
+  opacity: .5;
+  transition: .2s;
+}
+
+#curriculo:hover img {
+  height: 1.2rem;
+}
+
+#curriculo:hover p {
+  font-size: .85rem;
 }
