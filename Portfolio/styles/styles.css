@@ -62,7 +62,7 @@ h2 {
   margin: 0;
 }
 
-#sociais {
+#contato {
   height: fit-content;
   display: grid;
   grid-template-columns: 32% 8% 8% auto;
@@ -70,13 +70,13 @@ h2 {
   margin-top: 20px;
 }
 
-#sociais img {
+#contato img {
   height: 1.3rem;
   margin: 0 1px;
   cursor: pointer;
 }
 
-#sociais img:hover {
+#contato .sociais:hover {
   height: 1.2rem;
   opacity: .5;
   transition: .2s;
@@ -115,8 +115,9 @@ h2 {
 
 #curriculo:hover img {
   height: 1.2rem;
+  font-size: .83rem;
 }
 
 #curriculo:hover p {
-  font-size: .85rem;
+  font-size: .83rem;
 }
