@@ -1,5 +1,6 @@
 :root {
-  --cor-fundo: rgb(31, 41, 55);
+  --cor-caixas: rgb(31, 41, 55);
+  --cor-texto: rgb(151, 166, 185);
 }
 
 body {
@@ -17,15 +18,86 @@ body {
 }
 
 #header {
-  background-color: var(--cor-fundo);
-  height: auto;
-  width: 400px;
+  background-color: var(--cor-caixas);
+  height: 160px;
+  width: 350px;
+  border-radius: 13px;
   display: grid;
-  grid-template-rows: .5fr 1fr 1fr 1fr;
+  grid-template-rows: 34% 9% 22% auto;
   justify-self: center;
+  margin-top: 50px;
   cursor: default;
 }
 
-.h1 {
-  margin-left: 500px;
+h1 {
+  height: fit-content;
+  margin: 15px 13px 0;
+}
+
+h2 {
+  color: var(--cor-texto);
+  height: fit-content;
+  font-size: .9rem;
+  font-weight: lighter;
+  margin: 0 13px;
+}
+
+#local {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+#local img {
+  height: .8rem;
+  margin: 0 2px 2px 13px;
+  font-size: .9rem;
+  font-weight: lighter;
+}
+
+#local p {
+  color: var(--cor-texto);
+  font-size: .9rem;
+  font-weight: lighter;
+  margin: 0;
+}
+
+#sociais {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 32% 8% 8% auto;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#sociais img {
+  height: 1.3rem;
+  margin: 0 1px;
+  cursor: pointer;
+}
+
+#curriculo {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  margin: 1px 0 0 13px;
+  cursor: pointer;
+}
+
+#curriculo img {
+  font-size: .9rem;
+  font-weight: lighter;
+  margin: 0 3px .6px;
+}
+
+#curriculo p {
+  color: white;
+  width: fit-content;
+  font-size: .9rem;
+  font-weight: lighter;
+  margin: 3px 5px 3px 0;
 }
