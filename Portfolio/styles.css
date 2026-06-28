@@ -134,3 +134,109 @@ h2 {
 #curriculo:hover p {
   font-size: .83rem;
 }
+
+#selecaoTrabalhoEnsino {
+  height: fit-content;
+  background-color: var(--cor-texto-sec);
+  border-radius: var(--tamanho-border);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.btnAlterna {
+  background-color: var(--cor-fundo-sec);
+  color: var(--cor-texto-prim);
+  width: inherit;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#btnTrabalho {
+  background-color: var(--cor-fundo-sec) /*transparent*/;
+  background-clip: padding-box;
+}
+
+#btnEnsino {
+  background-color: transparent /*var(--cor-fundo-sec)*/;
+  background-clip: padding-box;
+}
+
+#boxTrabalhoEnsino {
+  margin-top: 5px;
+  display: grid;
+  grid-template-rows: 0 0;
+}
+
+#boxTrabalho {
+  background-color: var(--cor-fundo-sec);
+  height: 100px;
+  position: relative;
+  border: 2px solid var(--cor-texto-sec);
+  border-radius: var(--tamanho-border);
+  cursor: default;
+}
+
+#boxTrabalho svg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  stroke: rgb(151, 166, 185);
+  stroke-width: 2;
+  fill: transparent;
+}
+
+#boxEnsino {
+  background-color: var(--cor-fundo-sec);
+  height: 100px;
+  position: relative;
+  border: 2px solid var(--cor-texto-sec);
+  border-radius: var(--tamanho-border);
+  cursor: default;
+}
+
+#boxEnsino svg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  stroke: rgb(151, 166, 185);
+  stroke-width: 2.5;
+  fill: transparent;
+}
+
+#boxTrabalho p {
+  left: 95px;
+  margin: 0;
+}
+
+.tempoTrabalho {
+  color: var(--cor-texto-sec);
+  font-size: .8rem;
+  position: absolute;
+  top: 26px;
+}
+
+.nomeTrabalho {
+  color: var(--cor-texto-prim);
+  font-size: 1.1rem;
+  position: absolute;
+  top: 40.5px;
+}
+
+.cargoTrabalho {
+  color: var(--cor-texto-sec);
+  font-size: .8rem;
+  position: absolute;
+  top: 61px;
+}
+
+.empresas-logos {
+  height: 50px;
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  border-radius: 50px;
+  cursor: pointer;
+}
