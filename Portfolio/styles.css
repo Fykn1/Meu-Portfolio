@@ -252,7 +252,7 @@ h2 {
   display: grid;
   grid-template-rows: auto;
   justify-self: center;
-  margin-top: 40px;
+  margin-top: 20px;
   cursor: default;
 }
 
@@ -300,7 +300,7 @@ h2 {
   display: grid;
   grid-template-rows: auto;
   justify-self: center;
-  margin-top: 40px;
+  margin-top: 20px;
   padding-bottom: var(--tamanho-margin);
   cursor: default;
 }
