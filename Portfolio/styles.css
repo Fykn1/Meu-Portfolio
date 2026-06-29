@@ -292,3 +292,29 @@ h2 {
   margin-left: 0;
 }
 
+#projetos-container {
+  background-color: var(--cor-fundo-prim);
+  height: fit-content;
+  width: 500px;
+  border-radius: var(--tamanho-border);
+  display: grid;
+  grid-template-rows: auto;
+  justify-self: center;
+  margin-top: 40px;
+  padding-bottom: var(--tamanho-margin);
+  cursor: default;
+}
+
+#titulo-projetos {
+  color: var(--cor-texto-prim);
+  height: fit-content;
+  width: fit-content;
+  font-size: 1.5rem;
+  margin: calc(var(--tamanho-margin) - 3.55px) 0 5px var(--tamanho-margin);
+  padding: 0;
+}
+
+.link-projetos {
+  margin: 5px 0 0 var(--tamanho-margin);
+  cursor: pointer;
+}
