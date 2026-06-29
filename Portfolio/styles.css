@@ -18,7 +18,6 @@ body {
 
 #corpo {
   display: grid;
-  grid-template-rows: auto;
   justify-content: center;
 }
 
@@ -135,13 +134,17 @@ h2 {
   font-size: .83rem;
 }
 
+#boxExperiencia {
+  height: 132px;
+  margin-top: 40px;
+}
+
 #selecaoTrabalhoEnsino {
   height: fit-content;
   background-color: var(--cor-texto-sec);
   border-radius: var(--tamanho-border);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 40px;
   overflow: hidden;
 }
 
@@ -240,3 +243,52 @@ h2 {
   border-radius: 50px;
   cursor: pointer;
 }
+
+#skills {
+  background-color: var(--cor-fundo-prim);
+  height: fit-content;
+  width: 500px;
+  border-radius: var(--tamanho-border);
+  display: grid;
+  grid-template-rows: auto;
+  justify-self: center;
+  margin-top: 40px;
+  cursor: default;
+}
+
+#titulo-skills {
+  color: var(--cor-texto-prim);
+  height: fit-content;
+  width: fit-content;
+  font-size: 1.5rem;
+  margin: calc(var(--tamanho-margin) - 3.55px) 0 0 var(--tamanho-margin);
+  padding: 0;
+}
+
+#boxSkills-logos-texto {
+  margin: calc(var(--tamanho-margin) - 6px) 0 0 var(--tamanho-margin);
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+}
+
+.boxSkills {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  margin: 0 0 var(--tamanho-margin) var(--tamanho-margin);
+}
+
+.skills-logos {
+  height: 1.5rem;
+}
+
+.skills-texto {
+  color: var(--cor-texto-prim);
+  font-size: 1.1rem;
+  margin: 0 0 0 1px;
+}
+
+#boxHtml {
+  margin-left: 0;
+}
+
