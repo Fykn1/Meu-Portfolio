@@ -244,7 +244,7 @@ h2 {
   cursor: pointer;
 }
 
-#skills {
+#skills-container {
   background-color: var(--cor-fundo-prim);
   height: fit-content;
   width: 500px;
